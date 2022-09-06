@@ -1,18 +1,20 @@
 {
-  "name": "su-sdk",
-  "version": "1.0.2",
-  "description": "SearchUnify javascript software development kit.",
+  "name": "search-middleware",
+  "version": "1.0.0",
+  "description": "Enhance search client security by leveraging the platform authentication layer with SearchUnify.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:searchunify/su-sdk.git"
+    "url": "git@github.com:searchunify/search-middleware.git"
   },
   "keywords": [
+    "javascript",
     "searchunify",
-    "sdk"
+    "middleware",
+    "authentication"
   ],
   "author": "SearchUnify",
   "license": "MIT",

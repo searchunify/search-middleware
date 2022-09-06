@@ -1,8 +1,8 @@
 # SearchUnify Middleware
 
-[![Version npm](https://img.shields.io/npm/v/su-sdk.svg?style=flat-square)](https://www.npmjs.com/package/su-sdk)
+[![Version npm](https://img.shields.io/npm/v/search-middleware.svg?style=flat-square)](https://www.npmjs.com/package/search-middleware)
 
-[![NPM](https://nodei.co/npm/su-sdk.png?downloads=true&downloadRank=true)](https://nodei.co/npm/su-sdk/)
+[![NPM](https://nodei.co/npm/search-middleware.png?downloads=true&downloadRank=true)](https://nodei.co/npm/search-middleware/)
 
 ## Overview
 The SearchUnify SDK enables developers to easily work with the SearchUnify platform and build scalable solutions with search, analytics, crawlers and more. You can get started in minutes using NPM.
@@ -22,7 +22,7 @@ Install the dependencies and devDependencies and start the server.
 ## Execution
 Initiate SearchUnify javascript SDK on Server. Using the SDK, you can route search requests. To start using, initialize the SDK with your URL and API key.
 ```javascript
-const { SearchUnifyApiClient } = require('su-sdk');
+const { SearchUnifyApiClient } = require('search-middleware');
 const apiKey = "key";
 const instanceUrl = 'https://api.searchunify.com';
 const searchunify = new SearchUnifyApiClient(instanceUrl, apiKey);

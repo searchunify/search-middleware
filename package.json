@@ -1,6 +1,6 @@
 {
   "name": "search-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enhance search client security by leveraging the platform authentication layer with SearchUnify.",
   "main": "index.js",
   "scripts": {
